@@ -7,16 +7,43 @@ div{
     border: solid 2px;
     text-align: center;
     line-height: 2;
-    margin: 20px auto;
+    margin: 30px auto ;
     padding: 10px;
     border-color: #f44336 #2196F3;
+    align-items: center;
 }
 
 span{
     background-color: #2196F3;
     color: white;
-    height: 10px;
+    height: 30px;
     width: 10px;
+    border: solid 2px #2196F3;
+    font-size: 17px;
+    padding: 5px 10px;
+    margin: auto;
+}
+.top-left{
     position: relative;
-
+    right: 156px;
+    top: -164px;
+    border-right-color: #f44336;
+}
+.bottom-left{
+    position: relative;
+    right: 193px;
+    top: 25px;
+    border-right-color: #f44336;
+}
+.top-right{
+    position: relative;
+    left: 193px;
+    top: -164px;
+    border-left-color: #f44336;
+}
+.bottom-right{
+    position: relative;
+    left: 156px;
+    top: 25px;
+    border-left-color: #f44336;
 }
